@@ -13,57 +13,6 @@
   }
 }
 
-/* media query for large screen */
-
-@media only screen and (max-width: 600px) {
-  .hero {
-    padding-left: 50px;
-    margin-top: 50px;
-  }
-  .content h1 {
-    font-size: 1.5rem;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-style: italic;
-    font-weight: 900;
-  }
-  .content h4 {
-    font-size: 1.2rem;
-    text-align: center;
-  }
-  .input {
-    padding: 15px;
-  }
-  .input-text p {
-    text-align: center;
-  }
-}
-/*  end of large screen media query*/
-/* @keyframes demo-img{
-    from{
-        transform: translate(0);
-    }
-    to{
-        transform: translate(-300px);
-    }
-} */
-@keyframes demo-txt {
-  from {
-    transform: translate(0);
-  }
-  to {
-    transform: translate(30%);
-  }
-}
-@keyframes demo-txt2 {
-  from {
-    transform: translate(0);
-  }
-  to {
-    transform: translate(-30%);
-  }
-}
-
 * {
   padding: 0;
   margin: 0;
